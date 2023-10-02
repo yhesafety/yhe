@@ -56,6 +56,51 @@ body {
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden !important;
 }
+html{
+  overflow-x: hidden !important;
+}
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#0cb831;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+  z-index:100;
+}
+.float:hover{
+  background-color:#fff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: 0.9;
+}
+.my-float{
+	margin-top:16px;
+}
+.bounce {
+    animation: bounce 2s infinite;
+}
+@keyframes bounce {
+    0%,
+    25%,
+    50%,
+    75%,
+    100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-12px);
+    }
+}
+body {
+  position: relative
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Raleway', sans-serif;
