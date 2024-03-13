@@ -1573,6 +1573,10 @@ footer p {
   .serv-tabs .tabs-icon .item h6 {
     display: none;
   }
+  .clients .brand img{
+    height: auto;
+    width: auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
