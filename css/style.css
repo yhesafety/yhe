@@ -1339,11 +1339,9 @@ span, a, a:hover {
 }
 .clients .brand {
   padding: 15px;
-  opacity: .5;
-}
-.clients .brand:hover {
   opacity: 1;
 }
+
 
 /* ----------------------------------------------------------------
      [ End Clients ]
@@ -1456,18 +1454,26 @@ span, a, a:hover {
      [ 16 Start Footer ]
 -----------------------------------------------------------------*/
 footer {
-  background: #111;
+  background: #0cb831;
   padding: 80px 0;
 }
 footer .social a {
-  color: #777;
+  color: #fff;
   font-size: 18px;
   margin: 15px 10px;
 }
 footer p {
-  color: #777;
+  color: #fff;
   font-weight: 700;
 }
+
+.logo-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 
 /* ----------------------------------------------------------------
      [ End Footer ]

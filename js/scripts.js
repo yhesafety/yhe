@@ -193,7 +193,9 @@ $(window).on("load",function (){
     var wind = $(window);
 
     // Preloader
-    $(".loading").fadeOut(500);
+    setTimeout(function() {
+        $(".loading").fadeOut(800);
+    }, 3000);
 
 
     // stellar
